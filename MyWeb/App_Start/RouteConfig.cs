@@ -20,8 +20,8 @@ namespace MyWeb
                 );
 
             routes.MapRoute(
-                name: "Default3",
-                url: "{controller}/a/{action}",
+                name: "Default5",
+                url: "{controller}",
                 defaults: new { controller = "Home", action = "Index" }
                 );
 
